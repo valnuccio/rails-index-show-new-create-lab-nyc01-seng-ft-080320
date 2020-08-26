@@ -1,0 +1,4 @@
+<% @coupons.each do |coupon| %>
+  <div><%= link_to coupon.coupon_code, coupon_path(coupon) %> | <%= coupon.store %></div>
+  #don't full understand the last bit above. just what was gonna get the test pasting? need more info here
+<% end %>
